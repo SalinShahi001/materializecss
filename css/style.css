@@ -1,0 +1,234 @@
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif; }
+
+#header {
+  background-color: rgba(20, 43, 90, 0.972); }
+  #header img {
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.35; }
+  #header .slide {
+    position: relative; }
+    #header .slide .absolute {
+      position: absolute;
+      color: blanchedalmond;
+      top: 40%;
+      width: 100%;
+      text-align: center; }
+      #header .slide .absolute h1 {
+        text-transform: uppercase;
+        font-size: 3em;
+        margin-bottom: 0; }
+        #header .slide .absolute h1 span {
+          color: #f50167;
+          font-weight: bold; }
+        @media (max-width: 400px) {
+          #header .slide .absolute h1 {
+            font-size: 26px; } }
+      #header .slide .absolute p {
+        text-transform: uppercase;
+        font-size: 1.9em;
+        margin-top: 0; }
+        #header .slide .absolute p span {
+          color: #f8096d;
+          font-weight: bold; }
+        @media (max-width: 400px) {
+          #header .slide .absolute p {
+            font-size: 17px;
+            padding: 0 2px; } }
+      #header .slide .absolute a {
+        text-align: center;
+        text-transform: uppercase;
+        background-color: transparent; }
+        #header .slide .absolute a:hover {
+          background-color: rgba(23, 3, 243, 0.326);
+          font-weight: bold; }
+  #header .position {
+    width: 100%;
+    z-index: 99999; }
+    #header .position nav ul li {
+      text-transform: uppercase; }
+      #header .position nav ul li:hover {
+        background-color: rgba(229, 231, 223, 0.619); }
+  #header .mobile-nav li {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold; }
+    #header .mobile-nav li a:hover {
+      background-color: violet; }
+
+main #about {
+  padding: 50px 0 100px 0; }
+  main #about .sub-heading {
+    padding-top: 50px; }
+    main #about .sub-heading h2 {
+      margin-bottom: 0;
+      text-transform: uppercase; }
+    main #about .sub-heading hr {
+      width: 6%;
+      margin-top: 0;
+      border-top: 4px solid black;
+      border-bottom: 0; }
+  main #about .card-design {
+    padding: 50px 0px;
+    cursor: context-menu; }
+    main #about .card-design .flexbox {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main #about .card-design .flexbox img {
+        width: 100px;
+        object-fit: center;
+        height: 100px;
+        margin-bottom: 5px;
+        padding: 15px; }
+    main #about .card-design .card-title {
+      font-weight: bold;
+      margin-bottom: 0; }
+    main #about .card-design p {
+      color: #3b4f4d;
+      margin-top: -10px; }
+  main #about .info-me .info {
+    padding: 20px 0 15px 0; }
+    main #about .info-me .info .image {
+      margin: 0;
+      padding: 1px; }
+      main #about .info-me .info .image img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        padding: 1px;
+        margin-bottom: 15px; }
+    main #about .info-me .info .sub-heading {
+      text-transform: uppercase;
+      margin: 0px;
+      padding: 1px; }
+      main #about .info-me .info .sub-heading h4 {
+        margin: 0 0 8px 0;
+        font-size: 1.5em;
+        font-weight: bold; }
+    main #about .info-me .info .details {
+      margin: 0px;
+      padding: 1px;
+      text-align: center; }
+      main #about .info-me .info .details p {
+        font-family: "Roboto", sans-serif;
+        margin: 10px;
+        font-size: 1.2em;
+        padding: 2px 15px;
+        letter-spacing: 1.25px;
+        line-height: 1.5; }
+        main #about .info-me .info .details p span {
+          font-weight: bold; }
+  main #about .info-me .skills {
+    margin: 0;
+    padding-top: 15px; }
+    main #about .info-me .skills .hp {
+      height: 21px;
+      position: relative; }
+      main #about .info-me .skills .hp span {
+        margin: 0 5px;
+        position: absolute;
+        color: #f7f7f7;
+        z-index: 999;
+        font-weight: bold; }
+main #portfolio {
+  margin: 0;
+  padding: 10px 0 100px 0;
+  background-color: #f5f5f5; }
+  main #portfolio .sub-heading {
+    padding-top: 30px;
+    padding-bottom: 80px; }
+    main #portfolio .sub-heading h2 {
+      margin-bottom: 0;
+      text-transform: uppercase; }
+    main #portfolio .sub-heading hr {
+      width: 6%;
+      margin-top: 0;
+      border-top: 4px solid black;
+      border-bottom: 0; }
+  main #portfolio .all-projects .main-tab {
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: center; }
+  main #portfolio .all-projects p {
+    font-family: "Roboto", sans-serif; }
+  main #portfolio .all-projects #all a:hover,
+  main #portfolio .all-projects #pth a:hover,
+  main #portfolio .all-projects #css a:hover,
+  main #portfolio .all-projects #javascript a:hover {
+    opacity: 0.7; }
+main #blog {
+  padding: 50px 0 100px 0; }
+  main #blog .sub-heading {
+    padding-bottom: 100px; }
+    main #blog .sub-heading h2 {
+      margin-bottom: 0;
+      text-transform: uppercase; }
+    main #blog .sub-heading hr {
+      width: 6%;
+      margin-top: 0;
+      border-top: 4px solid black;
+      border-bottom: 0; }
+  main #blog p {
+    font-family: "Roboto", sans-serif; }
+main #contact {
+  border: 0;
+  background-color: #262f38;
+  padding-bottom: 100px; }
+  main #contact .sub-heading {
+    padding-bottom: 50px; }
+    main #contact .sub-heading h2 {
+      color: whitesmoke;
+      margin-bottom: 0;
+      text-transform: uppercase; }
+    main #contact .sub-heading hr {
+      width: 6%;
+      margin-top: 0;
+      border-top: 4px solid white;
+      border-bottom: 0; }
+    main #contact .sub-heading p {
+      font-family: "Roboto", sans-serif;
+      color: #0404f1;
+      text-transform: capitalize;
+      margin-top: 50px;
+      font-size: larger; }
+  main #contact form input,
+  main #contact form textarea {
+    color: whitesmoke; }
+  main #contact form input[type="submit"] {
+    background-color: transparent;
+    padding: 15px;
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid whitesmoke; }
+    main #contact form input[type="submit"]:hover {
+      background-color: rgba(245, 245, 245, 0.483); }
+
+footer {
+  padding: 1px;
+  background-color: #171f29;
+  font-family: "Roboto", sans-serif; }
+  footer ul {
+    padding: 20px 10px 0 10px; }
+    footer ul li {
+      align-self: center;
+      display: inline;
+      padding: 15px;
+      margin: 10px; }
+      footer ul li a {
+        text-decoration: none; }
+        footer ul li a img {
+          width: 30px; }
+      footer ul li:hover {
+        opacity: 0.4; }
+  footer p {
+    text-align: center;
+    font-size: 1rem;
+    color: #4c4848;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
